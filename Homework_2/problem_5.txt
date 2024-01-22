@@ -1,0 +1,32 @@
+def makeRandomList(size):   
+lyst = []
+for count in range(size):  
+while True:
+number = random.randint(1, size)
+if not number in lyst:
+lyst.append(number)
+break
+return lyst
+
+
+
+These are codes used to generate given size of list that contains random number in given domain.
+
+
+The computational complexity of this program is O(n).
+
+Steps:
+To calculate the computational complexity of this programm, we can measure the runtime of each line of code.
+First and second line's Computational complexity is both O(1)
+There is a for loop in the thire line. Computational complexity is O(size)
+Based on the question:  range, randint and append takes constant time.
+if n is the size of the list, and there is only a for loop, so Computational complexity is O(n)
+
+There is still a while loop inside the for loop whch run infinite times. But randint would take constant time, 
+and it rarely return duplicate numbers as assumed.
+
+So we can say the while loop will run O(1), because it may break any time it creates a random number.
+
+
+
+Finally, the total Computational complexity is O(n) + several O(1) = O(n)

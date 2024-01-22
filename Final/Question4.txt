@@ -1,0 +1,16 @@
+(a):
+the structure of a complete binary tree with maximum number of nodes is every nodes in this tree will have two childrens
+except the leaf node, until this tree reaches the height. After that, the number of nodes in this tree should be
+2^h -1. Because at each level i, ther are 2^(i-1) nodes in that level. After adding up all nodes in each level, we come 
+up with the formula of total number of nodes in this tree which is n=2^h - 1.
+
+(b):
+the structure of a complete binary tree with minimum number of nodes is every nodes are locating in the same direction 
+of the root node, stop adding nodes when it reaches heigh h. Then the number of node is h.
+The formula of the minimum number of node a complete binary tree could contain is n=h
+
+(c):
+from (a) we know the Max number of node is n= 2^h -1
+solving it, h = log(n+1)[base 2]
+from (b) we know the Min number of nodes is n=h
+h=n

@@ -1,0 +1,14 @@
+Description: comparison between binary search and Linear search
+Author: YANGCHENG
+Date: 1/30
+
+Linear search:
+there is only one for loop to iterate the entire array.
+the best case of linear search is the target is in the first place. O(1)
+average case of linear search is O(n)
+Worst case is we have to go through the whole array. O(n)
+
+
+Binary search:
+the bese case of binary search is also the target in the first place. O(1)
+the average and worst case is O(log n)(log is base two)

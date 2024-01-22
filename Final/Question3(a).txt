@@ -1,0 +1,12 @@
+3.(a)
+
+(i): when the graph is complete, it means there is an edge between every two vertexes in the graph. So, all of the 
+elements in matrix A will be 1 except the element located on diagonal line. Since there is no edge between a vertex and 
+itself.
+
+(ii): if the graph has a loop, there will be at least a 1 on diagonal line, since it is self-looping. other places are also 1.
+Due to the undirected graph, an edge from i to j is also an edge from j to i. 
+
+(iii): if a graph has an isolated vertex, then there will be more 0 in matrix excepet for diagonal elements. Since the 
+meaning of isolated vertex is there are no other vertexes connect to it, and it doesn't connect to others. As a result,
+all elements at its row and column will be 0.

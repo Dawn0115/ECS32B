@@ -1,0 +1,11 @@
+for this question to make this linked list to a double linked list. we have to add another implementation in Node class. we can define self.prev = None at first
+then we cna access to the specific node by change the nexe and previous node of it. We also have to modify each small cuntion in Linkedlist Class. add self.prev 
+to them.
+Here is small example
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.prev = None
+        self.next = None
+
+then modify other funcition in class

@@ -1,0 +1,10 @@
+3.(b)
+
+(i): if it is complete graph,the each node in adjacency list can link to every other nodes in the graph. 
+Furthemore, there will be n-1 links in each row in adjacency list, which n is the total number of vertexes.
+
+(ii): if there is a loop in graph, this means the corresponding node can link to it self. So, there will be one more 
+link to itself in the corresponding row of adjacency list.
+
+(iii) If the graph has an isolated vertex, this means, the row of that isolated vertex in adjacency list will be empty.
+Because it doesn't connect to anyone vertext.
